@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+
+[env]
+PYTHONUNBUFFERED = "1"
+
+[start]
+cmd = "python agent.py"
